@@ -1,0 +1,26 @@
+.header-logo img {
+  height: 100% !important;
+}
+.header-logo span {
+  height: 100% !important;
+}
+
+.header-btn {
+  cursor: pointer !important;
+}
+
+.active {
+  border-bottom: 3px solid var(--yellow-light);
+}
+
+.overlay-text p{
+  font-family: 'EurostileExtended';
+   font-weight: 900;
+  font-size: 35px;
+  line-height: 40px;
+  @media (max-width:767px) {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+

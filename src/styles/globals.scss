@@ -1,0 +1,66 @@
+@import './variables.scss';
+@import './typography.scss';
+
+// Container
+
+@import '../containers/Home/Hero/style.scss';
+@import '../containers/Common/ContentSection/style.scss';
+@import '../containers/Home/DataPlans/style.scss';
+@import '../containers/Home/Solutions/style.scss';
+@import '../containers/Content/Help/style.scss';
+@import '../containers/Content/LegalDocs/style.scss';
+@import '../containers/Product/Hero/style.scss';
+@import '../containers/Product/AboutProduct/style.scss';
+@import '../containers/Product/ProductFeatures/style.scss';
+
+// Components
+
+@import '../components/common/ContentWithImg/style.scss';
+@import '../components/common/Layout/style.scss';
+@import '../components/common/Modal/style.scss';
+@import '../components/common/ModalForm/style.scss';
+@import '../components/common/Select/style.scss';
+@import '../components/ProductFeatureCard/style.scss';
+
+// Global Classes
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.eurostile {
+  font-family: 'EurostileBold', sans-serif;
+}
+
+
+.icons-circle:hover circle {
+  fill: var(--yellow-dark);
+}
+.icons-path:hover path {
+  fill: var(--yellow-dark);
+}
+.icons-rect:hover rect {
+  fill: var(--yellow-dark);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-dark:hover {
+  color: var(--black);
+  background-color: var(--yellow-dark);
+}
+
+.card {
+  height: 100%;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
+
+code{
+  font-family: 'EurostileBold' , sans-serif;
+  color: var(--yellow-light);
+}

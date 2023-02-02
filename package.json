@@ -1,0 +1,35 @@
+{
+  "name": "satcom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.12.1",
+    "@contentful/rich-text-types": "^15.13.2",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "next": "12.3.0",
+    "node-sass": "^7.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-inlinesvg": "^3.0.1",
+    "sass": "^1.54.9",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.16",
+    "@types/react": "18.0.19",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.9",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.8.3"
+  }
+}

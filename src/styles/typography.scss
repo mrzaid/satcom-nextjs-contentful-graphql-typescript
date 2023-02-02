@@ -1,0 +1,65 @@
+// Opens Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+// Eurostile local font
+@font-face {
+  font-family: 'EurostileBold';
+  src: url('../assets/EurostileBold.ttf');
+}
+@font-face {
+  font-family: 'EurostileMedium';
+  src: url('../assets/EurostileNormal.ttf');
+}
+@font-face {
+  font-family: 'EUROSTILEEXTENDED';
+  src: url('../assets/EurostileExtended.ttf');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'EurostileBold', sans-serif;
+  font-size: 55px;
+  line-height: 59px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'EurostileBold', sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'EurostileBold', sans-serif;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 700;
+}
+h4 {
+  font-family: 'EurostileBold', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 35px;
+    line-height: 39px;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}

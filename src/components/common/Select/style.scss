@@ -1,0 +1,32 @@
+.dropdown-btn{
+    background-image: linear-gradient(
+        180deg,
+        #000,
+        #000
+      );
+      transition: 0.3s all;
+      &:hover{
+        background-image: linear-gradient(
+        180deg,
+        var(--yellow-light),
+        var(--yellow-dark)
+      );
+      }
+}
+
+.custom-scroll::-webkit-scrollbar{
+    display: none;
+    opacity: 0;
+
+}
+.custom-scroll::-webkit-scrollbar-thumb{
+    display: none;
+    opacity: 0;
+}
+.custom-scroll::-webkit-scrollbar-track{
+    display: none;
+    opacity: 0;
+}
+.arrow-btn:hover .arrow g{
+    fill:#000;
+}
